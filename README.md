@@ -1,5 +1,6 @@
 # Cryptor
 A simple pythonscript to create a (semi) secure file for password storage. Works with python 2.*.
+
 Tested on OSX 10.13.2 (High Sierra)
 
 ## How to run
