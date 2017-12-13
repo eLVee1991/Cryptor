@@ -28,7 +28,7 @@ def decryptor(file_name, key):
 	with open(file_name, 'rb') as dfile:
 		ciphertext = dfile.read()
 		dec = decrypt(key, ciphertext)
-		message("info", "> "+"'"dec"'"+" is the content of the encrypted file.")
+		message("info", "> '"+dec+"'"+" is the content of the encrypted file.")
 		dfile.close()
 		#return dec
 
